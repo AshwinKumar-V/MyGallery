@@ -1,0 +1,45 @@
+
+.container{
+    background-color: crimson;
+    height: 600px;
+    width: 600px;
+    padding: 10px;
+    display: grid;
+    grid-template:
+        "p1 p1 p3" auto
+        "p4 p5 p6" auto/
+        auto auto auto;
+}
+
+.box{
+    font-size: 20px;
+    padding: 5%;
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+
+.box1{
+    background-color:red;
+    grid-area: p1;
+}
+.box2{
+    background-color:blue;
+    grid-area: p2;
+}
+.box3{
+    background-color:red;
+    grid-area: p3;
+}
+.box4{
+    background-color:gold;
+    grid-area: p4;
+}
+.box5{
+    background-color:hotpink;
+    grid-area: p5;
+}
+.box6{
+    background-color:lightcoral;
+    grid-area: p6;
+}
